@@ -2,15 +2,25 @@
 
 int main(){
 
-    //Declare and assign separately int x; x = 5; or together int x = 5;
+    //Integer (whole number)
+    int age = 26;
+    int year = 2024;
 
-    int x = 420;
-    int y = 69;
-    int sum = x + y;
+    //Double (number that includes a decimal)
+    double kda = 4.20;
+    double wlr = 6.9;
 
-    std::cout << x << '\n';
-    std::cout << y << '\n';
-    std::cout << sum << '\n';
+    //Single character
+    char rank = 'S';
+    char currency = '$';
+
+    //Boolean (true or false)
+    bool learning = true;
+    bool pro = false;
+
+    //Strings
+    std::string name = "AchroDev";
+    std::string day = "Saturday";
 
     return 0;
 }
