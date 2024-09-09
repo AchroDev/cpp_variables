@@ -20,9 +20,10 @@ int main(){
 
     //Strings
     std::string name = "AchroDev";
-    std::string day = "Saturday";
+    std::string day = "Monday";
 
     std::cout << "Your name is " << name << std::endl;
+    std::cout << "The day is " << day;
 
     return 0;
 }
