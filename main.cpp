@@ -22,5 +22,7 @@ int main(){
     std::string name = "AchroDev";
     std::string day = "Saturday";
 
+    std::cout << "Your name is " << name << std::endl;
+
     return 0;
 }
